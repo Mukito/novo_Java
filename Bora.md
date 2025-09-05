@@ -37,3 +37,25 @@ Isso significa que você escreve o programa em Java, compila para **bytecode** e
   * **Apps Android** (usando Java ou Kotlin).
   * **Sistemas corporativos** (bancos, governos, grandes empresas usam muito).
   * **Jogos e softwares embarcados**.
+
+---------------------------------------------------------
+
+
+```
+public class (nome){
+    public static void main(){
+         System.out.Println("Ola, Mundo!");
+    }
+}
+
+```
+
+# Como o JAVA Funciona
+
+### ⚙️ Como o Java funciona por dentro
+#### 1. Código-fonte → Compilação
+  * Você escreve um programa em Java num arquivo .java.
+  * Esse código não vai direto para o sistema operacional.
+  * Ele é compilado pelo javac (o compilador do Java).
+Resultado da compilação → **bytecode** (`.class`).
+Esse bytecode **não é código de máquina** (tipo 0 e 1), mas sim uma linguagem intermediária.
