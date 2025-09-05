@@ -114,3 +114,102 @@ Código Java (.java) → Compilador (javac) → Bytecode (.class) → JVM → Si
 
 Palavras reservadas
 
+
+# Palavras Reservadas do Java
+
+As palavras reservadas são identificadores que têm um **significado especial** na linguagem Java e **não podem ser usadas como nomes de variáveis, classes ou métodos**.
+
+---
+
+## ✅ Lista de Palavras Reservadas
+
+### Controle de fluxo
+- `if`
+- `else`
+- `switch`
+- `case`
+- `default`
+- `for`
+- `while`
+- `do`
+- `break`
+- `continue`
+- `return`
+- `yield` *(Java 13+)*
+
+### Modificadores de acesso
+- `public`
+- `private`
+- `protected`
+
+### Modificadores de classes, variáveis e métodos
+- `abstract`
+- `class`
+- `extends`
+- `final`
+- `implements`
+- `interface`
+- `native`
+- `new`
+- `static`
+- `strictfp`
+- `synchronized`
+- `transient`
+- `volatile`
+
+### Tratamento de exceções
+- `try`
+- `catch`
+- `finally`
+- `throw`
+- `throws`
+
+### Tipos primitivos
+- `boolean`
+- `byte`
+- `char`
+- `short`
+- `int`
+- `long`
+- `float`
+- `double`
+- `void`
+
+### Pacotes e importação
+- `import`
+- `package`
+- `module`
+- `open`
+- `requires`
+- `exports`
+- `opens`
+- `uses`
+- `provides`
+- `transitive`
+- `to`
+- `with`
+
+### Objetos e referências
+- `super`
+- `this`
+- `null`
+
+### Outros
+- `assert`
+- `const` *(reservado, mas não usado)*
+- `goto` *(reservado, mas não usado)*
+- `enum`
+- `instanceof`
+- `record` *(Java 14+)*
+- `var` *(Java 10+)*
+- `sealed` *(Java 17+)*
+- `permits` *(Java 17+)*
+
+---
+
+## ℹ️ Observações
+- `const` e `goto` são **reservadas**, mas não têm uso no Java.  
+- Algumas palavras foram adicionadas em versões mais recentes (ex.: `var`, `record`, `sealed`).  
+- Literais como `true`, `false` e `null` **não são palavras reservadas**, mas são tratados como **constantes fixas da linguagem**.
+
+
