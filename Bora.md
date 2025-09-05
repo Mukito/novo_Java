@@ -97,3 +97,20 @@ Código Java (.java) → Compilador (javac) → Bytecode (.class) → JVM → Si
 
 ```
 
+
+<img width="777" height="569" alt="image" src="https://github.com/user-attachments/assets/2825902a-5a7d-403b-b429-9225143abe78" />
+
+
+
+# Ferramentas para Desenvolvimento
+
+ * IntelliJ: https://www.jetbrains.com/pr-br/idea/
+ * Eclipse: http://www.eclipse.org/
+ * NetBeans: https://netbeans.apache.org/front/main/index.html
+ * VSC: https://code.visualstudio.com/
+
+
+---------------------------------------------------
+
+Palavras reservadas
+
