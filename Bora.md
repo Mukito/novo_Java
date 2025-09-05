@@ -213,3 +213,27 @@ As palavras reservadas são identificadores que têm um **significado especial**
 - Literais como `true`, `false` e `null` **não são palavras reservadas**, mas são tratados como **constantes fixas da linguagem**.
 
 
+### 🔹 Caracteres de Escape no Java
+
+Os **caracteres de escape** são usados dentro de **strings e caracteres** (`String` e `char`) para representar símbolos que não podem ser escritos diretamente.
+Eles começam com barra invertida (`\`).
+
+
+
+| Escape | Significado                                                 |
+| ------ | ----------------------------------------------------------- |
+| `\n`   | Nova linha (line feed – quebra de linha)                    |
+| `\r`   | Retorno de carro (carriage return)                          |
+| `\t`   | Tabulação horizontal (TAB)                                  |
+| `\b`   | Backspace (apaga o caractere anterior, na saída de console) |
+| `\f`   | Form feed (avanço de página, pouco usado)                   |
+| `\'`   | Aspas simples                                               |
+| `\"`   | Aspas duplas                                                |
+| `\\`   | Barra invertida (`\`)                                       |
+
+ 
+
+
+
+
+
