@@ -59,3 +59,41 @@ public class (nome){
   * Ele é compilado pelo javac (o compilador do Java).
 Resultado da compilação → **bytecode** (`.class`).
 Esse bytecode **não é código de máquina** (tipo 0 e 1), mas sim uma linguagem intermediária.
+
+#### 2. Bytecode → JVM (Java Virtual Machine)
+ * O bytecode gerado é enviado para a JVM.
+ * A **JVM (Máquina Virtual Java)** é como um intérprete entre seu programa e o sistema operacional.
+ * É por isso que o Java é **independente de plataforma**: basta que o computador tenha uma JVM instalada.
+
+#### 3. Execução Just-in-Time (JIT)
+ * Para não ficar lento, a JVM usa o **JIT Compiler (Just-In-Time)**.
+ * O JIT traduz o bytecode em **código de máquina nativo** no momento da execução, deixando o programa rápido.
+   
+#### 4. Bibliotecas e APIs
+ * O Java vem com uma **biblioteca padrão enorme** (Collections, rede, arquivos, banco de dados, etc.).
+ * Você não precisa “reinventar a roda”: muita coisa já está pronta.
+
+#### 5. Gerenciamento de Memória
+ * Diferente de C/C++, no Java você **não precisa liberar memória manualmente**.
+ * Existe o **Garbage Collector**, que detecta objetos não utilizados e libera memória automaticamente.
+
+#### 6. Ambiente de Desenvolvimento
+ * **JDK (Java Development Kit)** → para programar (inclui compilador, ferramentas, etc.).
+ * **JRE (Java Runtime Environment)** → para rodar programas (bibliotecas + JVM).
+ * **IDE (Ambiente de Desenvolvimento Integrado)** como Eclipse, IntelliJ ou VS Code pode ajudar, mas não é obrigatório.
+
+📌 Resumindo:
+
+**1.** Você escreve o código `.java`.
+**2.** O compilador transforma em bytecode `.class`.
+**3.** A **JVM** lê o bytecode e converte para o sistema operacional.
+**4.** O programa roda em qualquer lugar que tenha JVM.
+
+----------
+👉 Exemplo simplificado do fluxo:
+
+```scss
+Código Java (.java) → Compilador (javac) → Bytecode (.class) → JVM → Sistema Operacional → Resultado
+
+```
+
