@@ -24,7 +24,7 @@ Além da linguagem, o Java também é uma plataforma que inclui:
 
 ### 🔹 3. O lema do Java
 
-👉 *"Write Once, Run Anywhere"**
+👉 *"Write Once, Run Anywhere"*
 (Escreva uma vez, execute em qualquer lugar)
 Isso significa que você escreve o programa em Java, compila para **bytecode** e a **JVM** cuida de rodar em qualquer sistema operacional que tenha suporte.
 
