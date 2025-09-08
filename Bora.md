@@ -233,6 +233,10 @@ Eles começam com barra invertida (`\`).
 
  
 
+#### 📌 Então:
+ * Quando falamos em **terminação de instruções** → é o `;`.
+ * Quando falamos em **caracteres de escape em strings** → aí sim são `\n`, `\t`, `\\` etc.
+
 
 
 
