@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca Profissional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Jogo da Forca</h1>
+            <div id="category-display">Categoria: <span id="category-name">...</span></div>
+        </header>
+
+        <main>
+            <section class="game-area">
+                <div class="hangman-visual">
+                    <svg height="250" width="200" id="hangman-svg">
+                        <!-- Forca -->
+                        <line x1="20" y1="230" x2="180" y2="230" class="base" />
+                        <line x1="40" y1="230" x2="40" y2="20" class="base" />
+                        <line x1="40" y1="20" x2="120" y2="20" class="base" />
+                        <line x1="120" y1="20" x2="120" y2="50" class="base" />
+                        
+                        <!-- Partes do Corpo -->
+                        <circle cx="120" cy="70" r="20" class="body-part head" />
+                        <line x1="120" y1="90" x2="120" y2="150" class="body-part torso" />
+                        <line x1="120" y1="110" x2="90" y2="130" class="body-part left-arm" />
+                        <line x1="120" y1="110" x2="150" y2="130" class="body-part right-arm" />
+                        <line x1="120" y1="150" x2="90" y2="180" class="body-part left-leg" />
+                        <line x1="120" y1="150" x2="150" y2="180" class="body-part right-leg" />
+                    </svg>
+                </div>
+
+                <div class="word-display" id="word-display">
+                    <!-- Traços das letras serão inseridos aqui -->
+                </div>
+
+                <div class="status-info">
+                    <p>Tentativas restantes: <span id="tries-count">6</span></p>
+                    <p>Letras tentadas: <span id="guessed-letters">Nenhuma</span></p>
+                </div>
+            </section>
+
+            <section class="keyboard-area">
+                <div id="keyboard" class="keyboard">
+                    <!-- Teclado gerado via JS -->
+                </div>
+                <button id="reset-btn" class="primary-btn">Novo Jogo</button>
+            </section>
+        </main>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <h2 id="modal-title">Resultado</h2>
+                <p id="modal-message"></p>
+                <button id="modal-close" class="primary-btn">Jogar Novamente</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
