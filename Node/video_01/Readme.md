@@ -27,3 +27,16 @@ yarn add express pg typeorm dotenv reflect-metadata
     "dev": "nodemon --exec ts-node ./src/index.ts"
   },
 ```
+
+### Inicia o typescript
+```
+npx tsc --init
+```
+
+Sempre que você encontrar erros desse tipo ao usar comandos como `npx`, `npm`, `tsc` ou `nodemon`, você tem a opção:
+
+```
+powershell -ExecutionPolicy Bypass -Command "npx tsc --init"
+ 
+```
+
